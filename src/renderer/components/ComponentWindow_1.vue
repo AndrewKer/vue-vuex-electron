@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>MCASE</h1>
+		<h1>Component 1</h1>
 		<md-steppers :md-active-step.sync="active" md-linear>
 			<md-step id="first" md-label="1" :md-done.sync="first">
                 <md-button class="md-raised md-primary" @click="setDone('first', 'second')">Continue</md-button>
